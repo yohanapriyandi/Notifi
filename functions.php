@@ -1,8 +1,8 @@
 <?php
     // Credentials for database access
     // you can use mysqli() or other on example i'am using PDO
-    define('DBINFO', 'mysql:host=localhost;dbname=notificationsystem');
-    define('DBUSER','root');
+    define('DBINFO', 'mysql:host=localhost;dbname=');
+    define('DBUSER','');
     define('DBPASS','');
     function fetchAll($query){
         $con = new PDO(DBINFO, DBUSER, DBPASS);
